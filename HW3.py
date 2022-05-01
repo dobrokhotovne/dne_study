@@ -105,7 +105,7 @@ def my_func():
         print('Please, input values. If you want stop - input "stop"')
         data = input('Input data: ').split()
         for el in data:
-            'if el == 'stop:
+            if el == 'stop':
                 return
             else:
                 try:
